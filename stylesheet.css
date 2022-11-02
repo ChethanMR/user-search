@@ -1,0 +1,92 @@
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Acme', sans-serif;
+
+        }
+        .container{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            box-shadow: 1px 2px 15px rgb(0 0 0 / 30%);
+            width: 340px;
+            /* height: 500px; */
+            border-radius: 10px;
+            margin-top: 100px;
+        }
+        .search-container{
+            background-color: #3E57DB;
+            width: 100%;
+            color: white;
+            border-radius: 5px 5px 0 0;
+        }
+        .search-container h2{
+            margin: 20px 20px 5px 20px;
+        }
+        .search-container p{
+            margin-top: 0px;
+        }
+
+        .search-container h3,p,input{
+            margin-left: 20px;
+        }
+
+        .search-username{
+            padding: 10px 15px;
+            margin: 30px 24px;
+            width: 77%;
+            color: white;
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            font-size: 18px;
+            outline-style: none;
+            border: 0;
+        }
+
+        .user-container{
+            overflow-y: scroll;
+            height: 380px;
+            width: 100%;
+        }
+
+        .user-container ul{
+            list-style: none;
+            padding: 0;
+        }
+        .user-list{
+            display: flex;
+            border-bottom: 1px solid #d5d5d5;
+            padding: 18px;
+        }
+        .user-list img{
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            padding: 0;
+        }
+        .user-list .namencity{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+        }
+
+        .namencity h3{
+            margin: 0 10px 5px 15px;
+        }
+        .namencity p{
+            margin: 0 10px 5px 15px;
+        }
+        .loading{
+            padding: 10px 20px;
+             margin: 5px 0px;
+        }
+        .hide-list{
+            display: none;
+        }
+        
